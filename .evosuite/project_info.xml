@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Project>
+    <totalNumberOfTestableClasses>1</totalNumberOfTestableClasses>
+    <cut>
+        <fullNameOfTargetClass>org.apache.commons.lang3.BooleanUtils</fullNameOfTargetClass>
+        <fullNameOfTestSuite>org.apache.commons.lang3.BooleanUtils_ESTest</fullNameOfTestSuite>
+        <generation>
+            <id>0</id>
+            <failed>true</failed>
+            <modified>true</modified>
+            <timeBudgetInSeconds>180</timeBudgetInSeconds>
+            <memoryInMB>2000</memoryInMB>
+            <std_err_CLIENT>C:\Users\sandy\IdeaProjects\A5-new\.evosuite\tmp_2024_11_30_04_31_39\logs\org.apache.commons.lang3.BooleanUtils\std_err_CLIENT.log</std_err_CLIENT>
+            <std_out_CLIENT>C:\Users\sandy\IdeaProjects\A5-new\.evosuite\tmp_2024_11_30_04_31_39\logs\org.apache.commons.lang3.BooleanUtils\std_out_CLIENT.log</std_out_CLIENT>
+            <std_err_MASTER>C:\Users\sandy\IdeaProjects\A5-new\.evosuite\tmp_2024_11_30_04_31_39\logs\org.apache.commons.lang3.BooleanUtils\std_err_MASTER.log</std_err_MASTER>
+            <std_out_MASTER>C:\Users\sandy\IdeaProjects\A5-new\.evosuite\tmp_2024_11_30_04_31_39\logs\org.apache.commons.lang3.BooleanUtils\std_out_MASTER.log</std_out_MASTER>
+        </generation>
+    </cut>
+</Project>
