@@ -181,6 +181,25 @@
    <pluginManagement>
       <plugins>
         <plugin>
+          <groupId>org.jacoco</groupId>
+          <artifactId>jacoco-maven-plugin</artifactId>
+          <version>0.8.10</version> <!-- Use the latest version -->
+          <executions>
+            <execution>
+              <goals>
+                <goal>prepare-agent</goal>
+              </goals>
+            </execution>
+            <execution>
+              <id>report</id>
+              <phase>verify</phase>
+              <goals>
+                <goal>report</goal>
+              </goals>
+            </execution>
+          </executions>
+        </plugin>
+        <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-pmd-plugin</artifactId>
           <version>${commons.pmd.version}</version>
@@ -190,6 +209,10 @@
             <rulesets>
               <ruleset>src/conf/pmd-ruleset.xml</ruleset>
             </rulesets>
+            <includes>
+              <include>org/apache/commons/lang3/**</include>
+              <include>org/apache/commons/lang3/*.class</include>
+            </includes>
           </configuration>
         </plugin>
         <plugin>
